@@ -73,3 +73,33 @@ a {
 
 
 /*--------------Body 1-------------*/
+
+.body1 {
+    background-color: #F9FAF8;
+    height: 400px;
+    margin: 0;
+}
+
+.body1-part div{
+    border: 3px solid #3882F6;
+    width: 150px;
+    height: 150px;
+}
+
+.body1-parts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.body1-mainText {
+    text-align: center;
+}
+
+
+/*-----------------------Quotation--------------------------------*/
+
+/*-----------------------Info about me--------------------------------*/
+
+/*------------------------Footer-----------------------------------*/
