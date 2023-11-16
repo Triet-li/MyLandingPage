@@ -6,16 +6,19 @@
 /*--------Header------------*/
 body {
     margin: 0;
+
 }
 
 header {
     display: flex;
+    gap: 0px;
+    height: 300px;
     justify-content: space-around;
-    padding: 150px;
-    padding-top: 0;
     height: 400px;
     background-color: #1F2937;
     margin: 0;
+    padding: 100px;
+    padding-top: 15px;
 }
 
 .logo {
@@ -40,7 +43,7 @@ header {
     background-color: #3882F6;
     font-weight: 900;
     font-size: 19px;
-    border-radius: 13%;
+    border-radius: 5px;
 }
 
 .me {
@@ -63,16 +66,16 @@ ul a, .info p {
 .header-right {
     display: flex;
     flex-direction: column;
-    align-items: end;
     gap: 50px;
+    padding-right: 50px;
 }
 
 .info {
     display: flex;
     flex-direction: column;
     width: 400px;
-    height: 350px;
-    flex-wrap: wrap;
+    height: 300px;
+   
 }
 
 .info p {
@@ -83,7 +86,7 @@ ul {
     list-style-type: none;
     padding: 0;
     display: flex;
-    gap: 10px;
+    gap: 30px;
     margin-bottom: 80px;
 }
 
@@ -98,17 +101,20 @@ a {
     padding: 0;
     background-color: var(--white-color);
     height: 450px;
-    margin: 0;
+   
 }
 
 .body1-part div{
-    border: 3px solid #3882F6;
+    border: 5px solid #3882F6;
     width: 150px;
     height: 150px;
     border-radius: 8%;
+
+
 }
 
 .body1-part p {
+    width: 150px;
     text-align: center;
 }
 
@@ -183,7 +189,7 @@ h2 {
     display: flex;
     justify-content: space-around;
     padding: 15px;
-    border-radius: 1%;
+    border-radius: 5px;
 }
 
 .info-me-paragraph {
